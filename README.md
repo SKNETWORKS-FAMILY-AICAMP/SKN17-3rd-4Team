@@ -104,16 +104,9 @@ Below is a text from a research paper on early childhood. Summarize the key find
 
 <br>
 
-## 4\. 작업 계획
+## 4\. WBS
+<img width="1319" height="665" alt="image" src="https://github.com/user-attachments/assets/c322baca-e38f-40ce-b0d8-a4234f4a4f97" />
 
-| 단계 | 작업 내용 | 시작일 | 종료일 | 비고 |
-|:---:|:---|:---:|:---:|:---|
-| 1 | 데이터 수집 및 정제 | 2025-09-20 | 2025-09-21 | 육아 관련 논문 텍스트 추출 |
-| 2 | 모델 선정 및 환경 구축 | 2025-09-21 | 2025-09-21 | `unsloth/qwen2.5-7b` 선정 |
-| 3 | 데이터 전처리 및 포맷팅 | 2025-09-22 | 2025-09-23 | `datasets` 라이브러리 활용 |
-| 4 | **모델 파인튜닝** | 2025-09-23 | 2025-09-24 | **(현재 진행 중)** |
-| 5 | 모델 성능 평가 및 검증 | 2025-09-25 | 2025-09-26 | BLEU, ROUGE 점수 측정 |
-| 6 | 결과 분석 및 모델 활용 | 2025-09-27 | - | Hugging Face Hub 업로드 및 데모 구현 |
 
 <br>
 
