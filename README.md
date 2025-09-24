@@ -6,25 +6,25 @@
   <tr>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>김민균</strong><br/>
-      <img src="https://github.com/user-attachments/assets/e856e3cd-3ab1-40c1-b6f7-2af13b15efa2" width="160"/><br/> 
+      <img src= 
     </td>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>김세한</strong><br/>
-      <img src="https://github.com/user-attachments/assets/40832a72-422f-4f10-aad4-83d6a81f0ce2" width="120"/><br/>
+      <img src=
     </td>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>김수현</strong><br/>
       <br><br/>
       <br><br/>
-      <img src="https://github.com/user-attachments/assets/9b2505fc-cd39-4e41-83db-a9dbcd9e17e9" width="200"/><br/>
+      <img src=<img width="1024" height="1024" alt="수현" src="https://github.com/user-attachments/assets/b3101204-db35-48ed-823c-66e9e441ccba" />
     </td>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>정의중</strong><br/>
-      <img src="https://github.com/user-attachments/assets/fe23faf4-c3e6-4086-93ee-c22b6914a3bc" width="120"/><br/>
+      <img src=<img width="1024" height="1024" alt="의중" src="https://github.com/user-attachments/assets/c0790bf8-cc79-4e38-b0d1-b49a27eadbab" />
     </td>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>최우진</strong><br/>
-      <img src="https://github.com/user-attachments/assets/fe7e2983-e615-4d5b-b01b-d9bda28097bd" width="120"/><br/>
+      <img src=<img width="1024" height="1024" alt="우진" src="https://github.com/user-attachments/assets/d8451ecc-a69e-46ec-b00f-dbd2eefec6e0" />
     </td>
   </tr>
   <tr>
@@ -37,3 +37,5 @@
 </table>
 
 <br><br/>
+
+
