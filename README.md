@@ -54,16 +54,12 @@
 
 ## 2. 개발 환경 및 라이브러리
 
-본 프로젝트는 다음 환경에서 개발되었습니다.
-
-- **언어**: Python 3.11
-- **주요 라이브러리**:
-  - `torch`
-  - `transformers`
-  - `datasets`
-  - `peft` (Parameter-Efficient Fine-Tuning)
-  - `accelerate`
-  - `bitsandbytes` (4-bit 양자화)
+| 분류 | 기술/도구 |
+|---|---|
+| 언어 | [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) |
+| 개발 환경 | [![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/) |
+| 딥러닝/ML 라이브러리 | [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/) [![bitsandbytes](https://img.shields.io/badge/bitsandbytes-009485?style=for-the-badge)](https://github.com/TimDettmers/bitsandbytes) |
+| 협업 툴 | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/) |
 
 <br>
 
@@ -139,3 +135,12 @@ Below is a text from a research paper on early childhood. Summarize the key find
       - 하이퍼파라미터 튜닝을 통한 모델 성능 최적화
       - 개발된 모델을 활용한 실제 적용 사례(예: 챗봇 서비스) 개발
 
+<br>
+
+## 7\. 한줄 회고록
+
+  - **김민균**:
+  - **김세한**:
+  - **김수현**:
+  - **정의중**:
+  - **최우진**:
