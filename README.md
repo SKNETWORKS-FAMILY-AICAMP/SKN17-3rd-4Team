@@ -230,7 +230,7 @@ Vector Database
 	•	breakpoint_threshold_type="percentile", breakpoint_threshold_amount=95 (예시)<br>
 	•	유사도가 급격히 떨어지는 지점(=주제 전환)에 절취선을 만든다.<br>
 	•	길이 제어: 토큰 기준<br>
-	•	chunk_size_tokens=400~600, chunk_overlap_tokens=80~120<br>
+	•	chunk_size_tokens=400 ~ 600, chunk_overlap_tokens=80~120<br>
 	•	Fallback: 의미 경계가 애매할 경우 RecursiveCharacterTextSplitter로 토큰 기준 분할
 
 
