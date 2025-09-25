@@ -151,7 +151,8 @@ Vector Database
 <br>
 
 ## 6. 요구사항 명세서
-<img width="1371" height="582" alt="image" src="https://github.com/user-attachments/assets/bcab9fff-3292-48f5-9950-e9c50813ae3c" />
+<img width="1372" height="428" alt="image" src="https://github.com/user-attachments/assets/f2ada38c-6ccf-45af-a868-3c97f4115fb3" />
+
 
 
 
