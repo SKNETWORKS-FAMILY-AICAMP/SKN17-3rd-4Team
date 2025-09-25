@@ -272,12 +272,10 @@ vi. 최종적으로는, 전처리와 청킹을 통해 데이터가 안정적으�
 ## 11. 수행결과(테스트/시연 페이지)
 <img width="871" height="707" alt="2d06c62105efa525" src="https://github.com/user-attachments/assets/ed605c9b-85bd-4939-be91-58349c808175" />
 <img width="821" height="433" alt="3dd8efd805be4daf" src="https://github.com/user-attachments/assets/63079584-7fcb-4050-bf16-2460f71a3710" />
-<img width="667" height="482" alt="5f53662f554e7ce1" src="https://github.com/user-attachments/assets/af005c23-46c6-4c5d-837e-4121139242bc" />
 <img width="788" height="498" alt="989c12d378be23c2" src="https://github.com/user-attachments/assets/1c9f2e3e-c1ef-4e47-9a75-a328b3f26760" />
 <img width="787" height="528" alt="2881cb2f977cf532" src="https://github.com/user-attachments/assets/5cdc2ee6-1ed9-4eca-bf44-886da6ace38f" />
 <img width="797" height="425" alt="30999f9e75ab7f5a" src="https://github.com/user-attachments/assets/8e2f0d06-7d38-4993-9b0f-445c3e7eef2f" />
 <img width="747" height="302" alt="368143c3f7f36a66" src="https://github.com/user-attachments/assets/578d0559-ad2e-4d39-9402-7113d3daab09" />
-<img width="827" height="502" alt="bb664f6ed822ff22" src="https://github.com/user-attachments/assets/8952cfc3-b1d4-4bb0-a13c-9577db086653" />
 <img width="757" height="562" alt="c6c7700b233b083b" src="https://github.com/user-attachments/assets/051cd778-710b-4a80-935b-e0ad8f816e1c" />
 <img width="792" height="707" alt="e2cb78b4dafc9591" src="https://github.com/user-attachments/assets/c990e0dd-dd51-413d-b15a-fc02921e933b" />
 
