@@ -58,14 +58,17 @@ LLM에 직접 파인튜닝을 적용하지 않고, Retrieval-Augmented Generatio
 
 <br>
 
-## 3. 기술 스택 & 사용한 모델
+## 3. 기술 스택 & 사용한 모델 
 
-| 분류 | 기술/도구 |
+| 구분 | 기술 |
 |---|---|
-| 언어 | [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) |
-| 개발 환경 | [![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/) |
-| 딥러닝/ML 라이브러리 | [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/) [![bitsandbytes](https://img.shields.io/badge/bitsandbytes-009485?style=for-the-badge)](https://github.com/TimDettmers/bitsandbytes) |
-| 협업 툴 | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/) |
+| 언어 | [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) |
+| 개발 환경 | [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/) [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/) |
+| 딥러닝/ML 라이브러리 | [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/) [![bitsandbytes](https://img.shields.io/badge/bitsandbytes-009485?style=for-the-badge)](https://github.com/TimDettmers/bitsandbytes) [![FAISS](https://img.shields.io/badge/FAISS-005CAB?style=for-the-badge)](https://faiss.ai/) |
+| 데이터 처리/전처리 | [![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)](https://www.langchain.com/) [![Regex](https://img.shields.io/badge/Regex-000000?style=for-the-badge)]() |
+| 외부 API | [![Kakao API](https://img.shields.io/badge/Kakao%20API-FFCD00?style=for-the-badge&logo=kakao&logoColor=black)](https://developers.kakao.com/) [![HIRA API](https://img.shields.io/badge/HIRA%20API-005BAC?style=for-the-badge)](https://www.hira.or.kr/) |
+| 협업/버전관리 | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/) |
+
 
 <br>
 
@@ -106,6 +109,7 @@ Base 모델: Orion-zhen/Qwen2.5-7B-Instruct-Uncensored
 <br>
 선정 이유
 Hugging Face에서 제공하는 Leaderboard 지표들을 참고하여 모델을 비교 평가했습니다.<br>
+
 	•	Average: 모델의 전반적 성능 평균<br>
 	•	IFEval: 사람이 정한 규칙(시스템 프롬프트, 금지어, 출력 형식 등)을 얼마나 잘 따르는가<br>
 	•	BBH (Big-Bench Hard): 복잡한 논리·추론 문제 해결 능력<br>
@@ -270,6 +274,6 @@ vi. 최종적으로는, 전처리와 청킹을 통해 데이터가 안정적으�
   - **김민균**: 크롤링을 하면서 크롤링 규정에 걸린 곳들이 많이 있어서 힘이 들었고 프로젝트를 하면서 한번더 부족하다는 것을 느끼고 좀 더 노력을 하여서 앞으로는 여러가지의 크롤링과 함께 더 많은 것들이 가능 하도록 노력하겠습니다.
   - **김세한**: 임베딩 모델과 LLM 모델 선정 단계부터 크롤링 및 전처리를 통한 데이터 구축, 이를 RAG와 파인튜닝용으로 가공하여 벡터DB를 만들고 FAISS를 활용해 RAG를 적용하는 전 과정까지 직접 수행하며 전체 흐름을 이해할 수 있었다. 다만 파인튜닝 코드까지 준비했음에도 불구하고 시간적 제약으로 학습을 완료하지 못한 점은 아쉬움으로 남는다. 향후에는 파인튜닝까지 마무리한 모델을 RAG와 결합하여 보다 완성도 높은 시스템을 구현하고자 한다.
   - **김수현**: 웹 크롤링을 통해 데이터를 수집하는 과정에서 스스로의 부족한 점을 돌아보게 되었습니다. 일부 데이터를 수집했는데 막상 분석하고 활용하기에는 어려운 데이터가 많아 아쉬움이 남았습니다. 이는 저의 경험 부족에서 비롯된 것이라 생각하며, 앞으로는 데이터의 품질과 활용성을 높일 수 있는 방법에 대해 더 깊이 공부하고 노력하는 자세를 갖겠습니다.
-  - **정의중**: 명확한 목표를 공유하고 각자의 역할에 최선을 다한 덕분에 시너지를 낼 수 있었습니다. 최고의 팀워크였습니다\!
+  - **정의중**: 데이터 수집과 전처리를 맡으며, 팀이 신뢰할 수 있는 기반을 만드는 일이 얼마나 중요한지 깨달았다. RAG의 성능을 높이기 위해 작은 세부 개선을 반복하는 과정에서, 팀원들의 아이디어와 노력이 더해져 큰 성과로 이어졌다.
   - **최우진**: 초기 기획부터 RAG 아키텍처를 핵심 전략으로 설정하고, 신뢰성 있는 답변을 위해 다양한 육아 관련 문서를 수집, 정제, 그리고 의미 단위로 청킹하여 벡터 DB를 구축해보았습니다. 이후, 검색과 생성에 최적화된 임베딩 모델과 LLM을 선정하여 정교한 프롬프트 엔지니어링으로 LLM의 답변 품질을 끌어올리는 성과를 얻었습니다. 최종적으로 데이터 파이프라인 설계부터 모델 적용까지 전 과정을 경험하며 AI 서비스 개발 역량을 키울 수 있었습니다.
 
