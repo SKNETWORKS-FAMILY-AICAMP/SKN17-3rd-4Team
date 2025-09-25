@@ -237,7 +237,7 @@ Vector Database
 <br>
 
 ## 8. DB 연동 구현 코드 (링크만)
-https://huggingface.co/WOOJINIYA/parentcare-bot-qwen2.5-7b
+https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN17-3rd-4Team/blob/main/Model_DB.ipynb
 
 <br>
 
